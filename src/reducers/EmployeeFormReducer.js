@@ -4,7 +4,7 @@ import { EMPLOYEE_UPDATE
 const INITIAL_STATE = {
 	name: '',
 	phone: '',
-	shift: ''
+	shift: 'Monday'
 };
 
 export default (state = INITIAL_STATE, action) => {
